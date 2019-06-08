@@ -1,0 +1,4 @@
+
+Todo:
+  ☐ change el in Home.elm to paragraph (so the code is neater and the links work)
+  ☐ add word-break: break-word; as css into the hashing output thing manually
