@@ -10,4 +10,4 @@ Ayy this project went pretty well! I think I'm kinda proud of it (it was my firs
 
 ## How it works
 
-To try it out, just open the HTML file, which contains the compiled javascript code. Tweaking the code requires a bit more work and [this documentation](https://guide.elm-lang.org/install.html) should help.
+To try it out, just open the HTML file, which contains the compiled elm code (just a bunch of javascript code). Tweaking the code requires a bit more work and [this documentation](https://guide.elm-lang.org/install.html) should help.
