@@ -10,4 +10,6 @@ Ayy this project went pretty well! I think I'm kinda proud of it (it was my firs
 
 ## How it works
 
+Check it out on [my website lol](http://joshuaji.com/projects/cryptography)
+
 To try it out, make sure you have Elm installed. [This documentation](https://guide.elm-lang.org/install.html) should help for compiling and whatnot.
