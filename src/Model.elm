@@ -1,4 +1,4 @@
-module Model exposing (CaesarModel, Directory(..), HashAlgorithm(..), HashModel, Model, ViginereModel)
+module Model exposing (CaesarModel, Directory(..), HashAlgorithm(..), HashModel, Model, ViginereModel, hashAlgoToString)
 
 -- my model
 
@@ -46,6 +46,28 @@ type HashAlgorithm
     | Sha512
     | Sha512_224
     | Sha512_256
+
+
+hashAlgoToString : HashAlgorithm -> String
+hashAlgoToString algo =
+    case algo of
+        Sha224 ->
+            "Sha224"
+
+        Sha256 ->
+            "Sha256"
+
+        Sha384 ->
+            "Sha384"
+
+        Sha512 ->
+            "Sha512"
+
+        Sha512_224 ->
+            "Sha512_224"
+
+        Sha512_256 ->
+            "Sha512_256"
 
 
 

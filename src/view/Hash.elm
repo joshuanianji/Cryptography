@@ -64,7 +64,7 @@ hashView model =
                   Input.multiline
                     [ width fill ]
                     { onChange = UpdateHashPlaintext
-                    , text = Debug.log "the current hash plaintext is: " model.caesarModel.plainText
+                    , text = model.caesarModel.plainText
                     , placeholder = Nothing
                     , label = Input.labelAbove [] (text "Plaintext")
                     , spellcheck = False
@@ -74,7 +74,7 @@ hashView model =
                 , Input.button
                     [ padding 25, Border.width 1, alignBottom ]
                     { onPress = Just UpdateHashOutput
-                    , label = el [ centerX ] (text ("Hash using " ++ Debug.toString model.hashModel.algorithm ++ " algorithm"))
+                    , label = el [ centerX ] (text ("Hash using " ++ Model.hashAlgoToString model.hashModel.algorithm ++ " algorithm"))
                     }
                 ]
 
