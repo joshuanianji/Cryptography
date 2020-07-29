@@ -6,7 +6,11 @@ My previous cryptography assignment was on python but I'm definitely not getting
 
 ## Update
 
-Ayy this project went pretty well! I think I'm kinda proud of it (it was my first Elm project) and I would say I didn't do such a bad job at it lol.
+Ayy this project went pretty well! I think I'm kinda proud of it (it was my first, relatively big Elm project) and I would say I didn't do such a bad job at it lol.
+
+## Run it locally 
+
+Run `elm-live src/Main.elm --pushstate -- --output=elm.js` on the root folder of the project (same folder this README is in).
 
 ## How it works
 

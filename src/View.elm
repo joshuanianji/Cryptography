@@ -2,6 +2,7 @@ module View exposing (view)
 
 import Element exposing (Element, FocusStyle)
 import Element.Font as Font
+import GithubLogo
 import Html exposing (Html)
 import Model exposing (Directory(..), Model)
 import Msg exposing (Msg(..))
@@ -22,6 +23,16 @@ view model =
         { options = [ Element.focusStyle focusStyle ] }
         [ Font.family
             [ Font.monospace ]
+        , GithubLogo.view
+            { href = "https://github.com/joshuanianji/HIIT-Timer"
+            , bgColor = "#000"
+            , bodyColor = "#fff"
+            }
+            |> Element.el
+                [ Element.alignRight
+                , Element.alignTop
+                ]
+            |> Element.inFront
         ]
     <|
         case model.directory of
