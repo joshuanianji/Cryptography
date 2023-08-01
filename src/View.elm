@@ -24,7 +24,7 @@ view model =
         [ Font.family
             [ Font.monospace ]
         , GithubLogo.view
-            { href = "https://github.com/joshuanianji/HIIT-Timer"
+            { href = "https://github.com/joshuanianji/Cryptography"
             , bgColor = "#000"
             , bodyColor = "#fff"
             }

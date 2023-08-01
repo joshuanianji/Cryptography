@@ -14,6 +14,6 @@ Run `elm-live src/Main.elm --pushstate -- --output=elm.js` on the root folder of
 
 ## How it works
 
-Check it out on [my website lol](http://joshuaji.com/projects/cryptography)
+Check it out on [my website lol](http://joshuaji.com/cryptography)
 
 To try it out, make sure you have Elm installed. [This documentation](https://guide.elm-lang.org/install.html) should help for compiling and whatnot.
